@@ -1,15 +1,24 @@
 {
-  "name": "@arfin-foysal/conponent-creator",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@arfinfoysal/component-generator",
+  "version": "0.0.4",
+  "description": "A simple component generator for react",
   "main": "index.js",
   "bin": {
-    "foysal-c": "./index.js"
+    "foysal-g": "./index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "arfin-foysal",
+  "keywords": [
+    "react",
+    "component",
+    "generator",
+    "cli"
+  ],
+  "author": "Foysal Ahmmad(Arfin)",
+  "designation": "Software Engineer (PHP,Node/Javascript,Laravel,React Js)",
   "license": "ISC"
 }
